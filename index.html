@@ -8,23 +8,194 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
-
   <script src="https://kit.fontawesome.com/def6e83317.js" crossorigin="anonymous"></script>
 
-
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            lifford: '#F9DF8A',
+            'bg-accent': '#FFDC26',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
 <body>
   <header>
-    <h1>my coment</h1>
+    <div class="navbar bg-red-300">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Find a pet</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="flex">
+          <img src="c1-assets/logo-header.png" alt="">
+          <a class="btn btn-ghost text-xl">Browse<span class="text-orange-500">4</span>Pets</a>
+
+        </div>
+
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Find a pet</a></li>
+          <li><a>Breeds</a> </li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+      <div class="gap-4 lg:flex hidden ">
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="border accent px-10 py-3 rounded">login</button>
+        <div class="navbar-end">
+          <a class="btn bg-yellow-500 px-14 py-3">Register</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <section class="">
+      <div class="hero min-h-screen flex lg:w-4/5  " style="  background-image: url(c1-assets/cat-big.png);">
+        <div class="hue-rotate-0 bg-opacity-50"></div>
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
 
 
   </header>
   <main>
+    <section>
+      ====
+      <div class="lg:flex grid grid-cols-2 justify-center gap-5">
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+        <div class="card bg-rose-300  w-60 shadow-xl justify-center items-center text-center">
+          <figure>
+            <img class="border-8 border-white-500 rounded-full mt-5" src="c1-assets/mouse-cartoon.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="">Dog</h2>
+            <p>3 items</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <section>
+      <div>
+        <div>
+          <h4>T- Shirt For Dogs
+            Discover a world of treats, toys, and essentials handpicked for
+            Shop Now</h4>
+        </div>
+        <div>
+
+        </div>
+
+
+
+      </div>
+    </section>
 
   </main>
 
   <footer>
+    <div class="card lg:card-side bg-base-100 shadow-xl">
+      <figure>
+        <img src="c1-assets/bird-cartoon.png" alt="">
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">New album is released!</h2>
+        <p>Click the button to listen on Spotiwhy app.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Listen</button>
+        </div>
+      </div>
+    </div>
+
 
   </footer>
 
