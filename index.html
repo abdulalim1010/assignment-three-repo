@@ -57,15 +57,15 @@
       </div>
       <div class="navbar-center hidden mr-52 lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li class="text-xl"><a>Breeds</a> </li>
-          <li class="text-xl"><a>Contact us</a></li>
+          <li class="text-xl font-bold"><a>Breeds</a> </li>
+          <li class="text-xl font-bold "><a>Contact us</a></li>
 
           <li class="text-xl"><a>Find a pet</a></li>
         </ul>
       </div>
       <div class="gap-4 lg:flex hidden ">
-        <i class="fa-regular fa-bell"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="text-xl font-bold   fa-regular fa-bell"></i>
+        <i class="text-xl font-bold   fa-solid fa-magnifying-glass"></i>
         <button class="border accent px-10 py-3 rounded">login</button>
         <div class="navbar-end">
           <a class="btn bg-yellow-500 px-14 py-3">Register</a>
@@ -87,7 +87,7 @@
           tails wag with
           joy!
         </p>
-        <button class="btn btn-primary">find a pet</button>
+        <button class="btn px-8 bg-yellow-200 py-3">find a pet</button>
 
         <span class="absolute inline-flex t h-28 w-28 animate-ping rounded-full bg-sky-400 opacity-75"></span>
         <span class="relative inline-flex size-3 rounded-full bg-sky-500"></span>
@@ -223,7 +223,7 @@
         <div class="space-y-5 p-24">
           <h3 class="text-3xl">T shirt for dog</h3>
           <p>discover a world of treat toys and <br>essentials for handicover </p>
-          <button class="btn px-8 py-3"> shopw now</button>
+          <button class="btn px-8 py-3"> shop now</button>
         </div>
         <img class="absolute right-0 bottom-0 size-auto  " src="c1-assets/cute-pet-small.png" alt="">
       </div>
@@ -317,7 +317,17 @@
           </div>
         </div>
 
-        <div class="flex  bg-yellow-200 rounded-xl p-5 none ">
+        <div class="flex  bg-yellow-200 rounded-xl p-5  ">
+          <div>
+            <img class="border-8 rounded-xl p-3" src="c1-assets/rabbit-cartoon.png" alt="">
+          </div>
+          <div>
+            <p><i class="fa-regular fa-star"></i> 4.5</p>
+            <h5>Pet Bed</h5>
+            <p>$39.99</p>
+          </div>
+        </div>
+        <div class="flex  bg-yellow-200 rounded-xl p-5 lg:hidden ">
           <div>
             <img class="border-8 rounded-xl p-3" src="c1-assets/rabbit-cartoon.png" alt="">
           </div>
@@ -379,7 +389,10 @@
         <h3 class="text-4xl font-bold">Get Pawsome News!</h3>
         <p>Exclusive training tips, ticks, product deals and more.</p>
 
-        <button class="btn btn-primary">Subscribe</button>
+        <div><input class="px-20 py-5 rounded" type="tel" id="phone" name="phone" placeholder="enter your email adress">
+        </div>
+
+        <button class="btn bg-yellow-200 ">Subscribe</button>
       </div>
 
 
@@ -389,7 +402,7 @@
 
     <section class="bg-yellow-200 pl-10 w-auto pb-10 ">
       <footer class="footer  text-base-content pt-52">
-        <nav class=" mt-auto ">
+        <nav class="pt-2 mt-auto ">
           <div class="flex"><img src="c1-assets/logo-footer.png" alt="">
             <h6 class="footer-title">SBrowse4Pets</h6>
           </div>
